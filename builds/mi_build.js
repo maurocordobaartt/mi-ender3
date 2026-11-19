@@ -23,7 +23,9 @@ module.exports = {
         enable: [
             "ADVANCED_PAUSE_FEATURE",
             "LEVEL_BED_CORNERS",
-            "LEVEL_CORNERS_USE_PROBE"
+            "LEVEL_CORNERS_USE_PROBE",
+            "LEVEL_CORNERS_VERIFY_RAISED",
+            "LEVEL_CORNERS_AUDIO_FEEDBACK"
         ],
         disable: []
     }
