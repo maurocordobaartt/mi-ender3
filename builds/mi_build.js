@@ -21,7 +21,9 @@ module.exports = {
     },
     configuration_adv: {
         enable: [
-            "ADVANCED_PAUSE_FEATURE"
+            "ADVANCED_PAUSE_FEATURE",
+            "LEVEL_BED_CORNERS",
+            "LEVEL_CORNERS_USE_PROBE"
         ],
         disable: []
     }
