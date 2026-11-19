@@ -19,7 +19,8 @@ module.exports = {
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_USE_PROBE",
             "BED_TRAMMING_VERIFY_RAISED",
-            "BED_TRAMMING_AUDIO_FEEDBACK"
+            "BED_TRAMMING_AUDIO_FEEDBACK",
+            ["BED_TRAMMING_INSET_LFRB", [45, 30, 45, 30]]
         ],
         disable: []
     },
