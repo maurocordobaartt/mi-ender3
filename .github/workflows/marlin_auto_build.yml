@@ -8,6 +8,6 @@ on:
 
 jobs:
   create_builds:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
     - uses: zisismaras/marlin_auto_build@v1
