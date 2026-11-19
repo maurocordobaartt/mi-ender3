@@ -15,17 +15,17 @@ module.exports = {
     },
     configuration: {
         enable: [
-            "NOZZLE_PARK_FEATURE"
+            "NOZZLE_PARK_FEATURE",
+            "LCD_BED_TRAMMING",
+            "BED_TRAMMING_USE_PROBE",
+            "BED_TRAMMING_VERIFY_RAISED",
+            "BED_TRAMMING_AUDIO_FEEDBACK"
         ],
         disable: []
     },
     configuration_adv: {
         enable: [
-            "ADVANCED_PAUSE_FEATURE",
-            "LEVEL_BED_CORNERS",
-            "LEVEL_CORNERS_USE_PROBE",
-            "LEVEL_CORNERS_VERIFY_RAISED",
-            "LEVEL_CORNERS_AUDIO_FEEDBACK"
+            "ADVANCED_PAUSE_FEATURE"
         ],
         disable: []
     }
